@@ -36,25 +36,8 @@ const Product = () => {
     }
     };
 
-    const Additeim =()=>{
-        return(
-            <div>
-                <div className="w-full h-full top-0 left-0 bg-black opacity-40 absolute">
-
-                </div>
-            </div>
-        );
-    } 
-    
-       
-    
-
     return ( 
        <div className="container mt-5 ml-64 p-3 flex-1 w-4/5 bg-slate-100 rounded border border-gray-700">
-
-    
-           
-        
 
             <div className="w-3/6 flex justify-around">
                 <p className=" text-xs mt-2">Product </p>

@@ -17,10 +17,10 @@ const Sibar = (props) => {
     return ( 
       
         
-        <div class="flex h-20">
+        <div className="flex h-20">
             {/* saibar */}
-            <div class="w-60 bg-gray-800 text-white p-4 fixed top-0 left-0 h-screen">
-                <h1 class="text-lg font-bold mb-6">Dashboard</h1>
+            <div className="w-60 bg-gray-800 text-white p-4 fixed top-0 left-0 h-screen">
+                <h1 className="text-lg font-bold mb-6">Dashboard</h1>
                     <ul className="-inset-4 text-stone-300 p-0">
                         <Link to="/"><li className="p-3 rounded-lg hover:bg-blue-600"><RiCustomerService2Fill className=" inline-block mr-2"/> Customer</li></Link>
                         <Link to="/order"><li className="p-3 rounded-lg hover:bg-blue-600"><MdOutlineBorderColor className=" inline-block mr-2"/> Order</li></Link>
@@ -36,7 +36,7 @@ const Sibar = (props) => {
             </div>
 
             {/* header */}
-            <div class="ml-60 p-3 flex-1 flex justify-between bg-cyan-100">
+            <div className="ml-60 p-3 flex-1 flex justify-between bg-cyan-100">
                 
                 <div className="w-4/6 flex items-center ">
                     <img src={Img2} alt="" 
