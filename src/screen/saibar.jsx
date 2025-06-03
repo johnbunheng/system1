@@ -12,14 +12,19 @@ import { FaUsersLine } from "react-icons/fa6";
 import { TbMessageReportFilled } from "react-icons/tb";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import { MdOutlineBorderColor } from "react-icons/md";
+import { FiAlignLeft } from "react-icons/fi";
 import { MdProductionQuantityLimits } from "react-icons/md";
+import { useState } from "react";
 const Sibar = (props) => {
+    
+    
     return ( 
       
         
         <div className="flex h-20">
             {/* saibar */}
             <div className="w-60 bg-gray-800 text-white p-4 fixed top-0 left-0 h-screen">
+                
                 <h1 className="text-lg font-bold mb-6">Dashboard</h1>
                     <ul className="-inset-4 text-stone-300 p-0">
                         <Link to="/"><li className="p-3 rounded-lg hover:bg-blue-600"><RiCustomerService2Fill className=" inline-block mr-2"/> Customer</li></Link>
@@ -36,6 +41,7 @@ const Sibar = (props) => {
             </div>
 
             {/* header */}
+           
             <div className="ml-60 p-3 flex-1 flex justify-between bg-cyan-100">
                 
                 <div className="w-4/6 flex items-center ">

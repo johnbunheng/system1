@@ -44,7 +44,7 @@ function App() {
             </Switch>
           </div>
         </div>
-      )}
+       )} 
     </Router>
   );
 }
