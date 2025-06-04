@@ -41,7 +41,6 @@ const Addproduct = () => {
     if (fileInputRef.current) {
       fileInputRef.current.value = '';
     }
-
     // Show success message
     alert('Product added successfully!');
   };

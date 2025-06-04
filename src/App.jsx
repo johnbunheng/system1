@@ -11,7 +11,7 @@ import Addproduct from './component/addproduct';
 
 function App() {
  
-    const [isLoggedIn, setIsLoggedIn] = useState(false); // Track login state
+    // const [isLoggedIn, setIsLoggedIn] = useState(false); // Track login state
 
   // Handle login success
   const handleLogin = (username, password) => {
@@ -29,10 +29,10 @@ function App() {
     
     <Router>
       
-      {!isLoggedIn && <Login onLogin={handleLogin} />}
+      {/* {!isLoggedIn && <Login onLogin={handleLogin} />} */}
 
       
-      {isLoggedIn && (
+      {/* {isLoggedIn && ( */}
         <div>
           <Sibar/>
           <div>
@@ -44,7 +44,7 @@ function App() {
             </Switch>
           </div>
         </div>
-       )} 
+      //  )} 
     </Router>
   );
 }
