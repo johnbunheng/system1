@@ -27,14 +27,14 @@ const Sibar = (props) => {
                 
                 <h1 className="text-lg font-bold mb-6">Dashboard</h1>
                     <ul className="-inset-4 text-stone-300 p-0">
-                        <Link to="/product"><li className="p-3 rounded-lg hover:bg-blue-600"><MdProductionQuantityLimits className=" inline-block mr-2"/> Product</li></Link>
-                        <Link to="/"><li className="p-3 rounded-lg hover:bg-blue-600"><RiCustomerService2Fill className=" inline-block mr-2"/> Customer</li></Link>
+                        <Link to="/"><li className="p-3 rounded-lg hover:bg-blue-600"><MdProductionQuantityLimits className=" inline-block mr-2"/> Product</li></Link>
+                        <Link to="/customer"><li className="p-3 rounded-lg hover:bg-blue-600"><RiCustomerService2Fill className=" inline-block mr-2"/> Customer</li></Link>
                         <Link to="/order"><li className="p-3 rounded-lg hover:bg-blue-600"><MdOutlineBorderColor className=" inline-block mr-2"/> Order</li></Link>
                         <Link to="/addproduct"><li className="p-3 rounded-lg hover:bg-blue-600"><BiSolidPurchaseTag className=" inline-block mr-2"/> Add Product</li></Link>
                         <Link to="/service"><li className="p-3 rounded-lg hover:bg-blue-600"><MdOutlineExpandCircleDown className=" inline-block mr-2"/> Expanse</li></Link>
-                        <li className="p-3 rounded-lg hover:bg-blue-600"><FaUsersLine className=" inline-block mr-2"/> Employee</li>
+                        <Link to="/user"><li className="p-3 rounded-lg hover:bg-blue-600"><FaUsersLine className=" inline-block mr-2"/> User</li></Link>
                         <li className="p-3 rounded-lg hover:bg-blue-600"><TbMessageReportFilled className=" inline-block mr-2"/> Report</li>
-                        <li className="p-3 rounded-lg hover:bg-blue-600"><LuUserRound className=" inline-block mr-2"/> User</li>
+                        <li className="p-3 rounded-lg hover:bg-blue-600"><LuUserRound className=" inline-block mr-2"/>Employee </li>
                         <li className="p-3 rounded-lg hover:bg-blue-600"><MdOutlineSettings className=" inline-block mr-2"/> Setting</li>
                         {props.children}
                     </ul>

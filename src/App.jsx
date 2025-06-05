@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Customer from './component/customer';
 import Order from './component/order'
 import Addproduct from './component/addproduct';
+import User from './component/user';
 
 function App() {
  
@@ -37,10 +38,11 @@ function App() {
           <Sibar/>
           <div>
             <Switch>
-              <Route exact path="/" component={Customer} />
+              <Route exact path="/" component={Product} />
+              <Route path="/customer" component={Customer} />
               <Route path="/order" component={Order} />
-              <Route path="/product" component={Product} />
               <Route path="/addproduct" component={Addproduct} />
+              <Route path="/user" component={User} />
             </Switch>
           </div>
         </div>
