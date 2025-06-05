@@ -17,7 +17,8 @@ function App() {
   // Handle login success
   const handleLogin = (username, password) => {
    
-    if (username === 'adminheng' || username === 'adminhong' || username === 'adminhour' && password === '123456') {
+    if (username === 'adminheng' || username === 'adminhong' || username === 'adminhour' || username === 'adminsorn' 
+      || username === 'adminseth' && password === '123456') {
       setIsLoggedIn(true);
       return true;
     } else {
